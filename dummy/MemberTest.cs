@@ -1,7 +1,7 @@
 using System;
 using Xunit;
 
-namespace member
+namespace member_dummy
 {
     public class MemberTest
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace member
+namespace member_dummy
 {
     class Program
     {

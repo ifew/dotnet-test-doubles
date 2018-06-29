@@ -1,6 +1,6 @@
 using System;
 
-namespace member
+namespace member_dummy
 {
     public class Member
     {
