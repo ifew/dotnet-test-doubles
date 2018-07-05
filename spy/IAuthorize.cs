@@ -17,10 +17,10 @@ namespace member_spy
     }
 
     public class SpyAuthorize : IAuthorize {
-        public Boolean checkAuthorizeWasCalled = false;
+        public int checkAuthorizeWasCalled = 0;
 
         public Boolean CheckAuthorize(string username, string password) {
-            checkAuthorizeWasCalled = true;
+            checkAuthorizeWasCalled++;
             return true;
         }
     }
