@@ -11,7 +11,10 @@ namespace member_dummy
         }
 
         public string Profile() {
-            return "Welcome to member area";
+            if(this.authorized)
+                return "Welcome to member area";
+
+            return "This not member area";
         }
     }
 }
