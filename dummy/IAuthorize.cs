@@ -18,7 +18,7 @@ namespace member_dummy
 
     public class DummyAuthorize : IAuthorize {
         public Boolean CheckAuthorize(string username, string password) {
-            return false;
+            return new bool();
         }
     }
 }
