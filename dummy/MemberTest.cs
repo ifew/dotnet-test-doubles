@@ -6,11 +6,10 @@ namespace member_dummy
     public class MemberTest
     {
         [Fact]
-        public void When_Member_Access_to_Profile() {
+        public void When_Called_Member_Should_Be_Object_Type_Member() {
             Member member = new Member(new DummyAuthorize());
-            string is_authorized = member.Profile();
 
-            Assert.NotNull(is_authorized);
+            Assert.IsType<Member>(member);
         }
     }
 }
